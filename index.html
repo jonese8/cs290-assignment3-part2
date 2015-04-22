@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <!-- CS290, Spring 2015 - Emmalee Jones, Assignment 3.2 -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>GitHub Gists Retrieval - CS290, Emmalee Jones, Assignment 3.2</title>
+  <script src="src/functions.js"></script>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+<div id="search">
+  <h2>Search</h2>
+  <form action="#" name="gist_form" id="gist_form" method="get">
+    <label><input type="checkbox" name="lang" value="Python"> Python</label>
+    <label><input type="checkbox" name="lang" value="JSON"> JSON</label>
+    <label><input type="checkbox" name="lang" value="JavaScript"> JavaScript</label>
+    <label><input type="checkbox" name="lang" value="SQL"> SQL</label>
+    <br>
+    <label>Pages: 
+      <select name="pages" id="pages">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+    </label>
+    <br>
+    <input type="submit" value="Search" onclick="buildPage();">
+  </form>
+  <br>
+</div>
+    
+<div id="favorites">
+  <h2>Favorite Gists</h2>
+</div>  
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+/* CS290, Winter 2015 - Emmalee Jones, Assignment 3.2 */
+
+#search {
+    width: 100%;
+    border-bottom: 2px solid #000000;
+}
+#favorites {
+    width: 100%;
+    border-bottom: 2px solid #000000;
+}
+
+label {
+    display: block;
+}
+
+table {
+    margin: 20px 0;
+}
+
+td {
+    padding: 5px;
+}
+
+h2 {
+    font-weight: bold;
+    color: green;
+}
+
