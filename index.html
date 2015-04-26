@@ -10,13 +10,27 @@
 <body>
 
 <div id="search">
-  <h2>Search</h2>
-  <form action="#" name="gist_form" id="gist_form" method="get">
+  <h2>GIST Search</h2>
+  <form action="#" name="gist_form" id="github_request" method="get">
+      <div class="checkbox">
     <label><input type="checkbox" name="lang" value="Python"> Python</label>
+      </div>
+       <div class="checkbox">
     <label><input type="checkbox" name="lang" value="JSON"> JSON</label>
+    </div>
+     <div class="checkbox">
     <label><input type="checkbox" name="lang" value="JavaScript"> JavaScript</label>
+    </div>
+     <div class="checkbox">
     <label><input type="checkbox" name="lang" value="SQL"> SQL</label>
-    <br>
+    </div>
+    <div class="checkbox">
+    <label><input type="checkbox" name="lang" value="HTML"> HTML</label>
+    </div>
+    <div class="checkbox">
+    <label><input type="checkbox" name="lang" value="CSS"> CSS</label>
+    </div> 
+    <div class="pgs">  
     <label>Pages: 
       <select name="pages" id="pages">
         <option value="1">1</option>
@@ -26,15 +40,17 @@
         <option value="5">5</option>
       </select>
     </label>
-    <br>
-    <input type="submit" value="Search" onclick="buildPage();">
+    </div>
+     <div class="submit"> 
+    <input type="submit" value="Search" onclick="createPage();">
+     </div>
   </form>
+   <br>
   <br>
+    <h2>GISTS</h2>
 </div>
-    
-<div id="favorites">
-  <h2>Favorite Gists</h2>
-</div>  
-
+ <div id="favorites">   
+    <h2>Favorite GISTS</h2>
+  </div>
 </body>
 </html>

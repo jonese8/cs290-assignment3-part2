@@ -1,0 +1,26 @@
+Your log goes in this  file.
+
+Start: Tue, 21 Apr 2015 22:20:30 -0600
+End: Tue, 21 Apr 2015 22:26:51 -0600
+Tasks: Added index.html and style.css for Part 2
+
+Start: Tue, 21 Apr 2015 21:01:00 -0600
+End: Tue, 21 Apr 2015 22:20:15 -0600
+Tasks: Fixed syntax for Part 1 according to Lint
+
+Start: Mon, 20 Apr 2015 22:12:00 -0600
+End: Mon, 20 Apr 2015 22:19:44 -0600
+Tasks: added log.txt
+
+Start: Mon, 20 Apr 2-15 18:10:00 -0600                                                                         
+End: Mon, 20 Apr 2015 22:11:45 -0600                                            
+Tasks: assignment 3 part 1 src                                                  
+
+Start: Sat, 18 Apr 2015 14:00:00 -0600
+End: Sat, 18 Apr 2015 14:30:03 -0600                                            
+Tasks: initial commit                                                           
+
+Start: Sat, 18 Apr 2015 12:20:00 -0600                                           
+End: Sat, 18 Apr 2015 13:46:25 -0600                                            
+Tasks: :neckbeard: Added .gitattributes & .gitignore files                      
+                   

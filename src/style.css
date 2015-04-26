@@ -2,19 +2,24 @@
 
 #search {
     width: 100%;
-    border-bottom: 2px solid #000000;
 }
-#favorites {
-    width: 100%;
-    border-bottom: 2px solid #000000;
+.checkbox {
+    float: left;
 }
-
+.pgs {
+    float: right;
+    margin-right: 50px;
+}
+.submit {
+    float: right;
+    margin-right: 10px;
+}
 label {
     display: block;
 }
 
 table {
-    margin: 20px 0;
+    margin: 20px 0;    
 }
 
 td {
